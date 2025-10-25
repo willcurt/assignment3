@@ -1,0 +1,29 @@
+Finished Git Lab tutorials on 10/24/25
+Joined GitHub on 5/20/25
+I followed the ssh tutorial on github as the extra tutorial
+
+1) On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+2)% git rev-list --count --all  , returns 11
+
+3)% git log -1 --format="%h %an %ad %s" -- README.md
+dc9df5c willcurt Sat Oct 25 17:21:08 2025 -0400 Resolved merge conflict in README.md
+
+4) to develop seperate without breaking main. to enable parallel work and code review before integration
+
+5) git log shows commit history, git status shows working tree relative to last commit
+
+6) % git log --name-only --pretty=oneline -- Vehicle.h | sed -n '1,200p'
+
+7) % git log --grep='file' -i
+
+8) inheritance is classes resuing or extending behaviors or data from an existing class
+polymorphism is the ability to receive different types thru a common interface, method invoked depends on runtime type
+encapsulation is hiding internal representation and using a public interface with controls access via visibility (private/protected/public)
+
+9) I think dictator and lieutenants is having multiple integration managers/maintainers. The dictator publishes to the canonical tree, lieutenants receive patches from contributors and curate histories for dictator to view. while, an integration manager pretty much does all of the above in one
+
+10) because the volume of code is too much to sift through for an individual. they need teams to do it and dictator and lieutenants divides up that work
